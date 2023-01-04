@@ -1,5 +1,5 @@
 
-public class CustomExceptionThrower {
+public class CustomExceptionThrower extends CustomException{
 
     /**
      * This method should throw a CustomException. CustomException is a custom exception that we've written ourselves
@@ -8,8 +8,17 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public void throwCustomException(){
+    public void throwCustomException() throws CustomException{
+        int x = 5;
+        int y = 0;
 
+        try{
+            System.out.println(x/y);
+            throw new CustomException("Error");
+        }
+        catch(CustomException e){
+            e.printStackTrace();
+        }
     }
 
 }
