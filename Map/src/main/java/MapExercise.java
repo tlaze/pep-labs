@@ -1,5 +1,6 @@
 
 import java.util.Map;
+import java.util.HashMap;
 
 /**
  * Maps are key/value pairs. They are used in situations where we have some value that we'd like
@@ -26,7 +27,8 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
-        return null;
+        Map<Integer, String> map = new HashMap<Integer, String>();
+        return map;
     }
 
     /**
