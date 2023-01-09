@@ -8,7 +8,7 @@ public class GetMax {
      */
     public int max(int[] arr){
 
-        int max = -999999;
+        int max = arr[0];
         for(int a: arr){
             if(a > max){
                 max = a;
