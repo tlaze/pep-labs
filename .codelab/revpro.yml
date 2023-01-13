@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: tlaze-pepgitpodworkspa-uus3jhdsior
-    :workspace_url: https://tlaze-pepgitpodworkspa-uus3jhdsior.ws-us79.gitpod.io
+    :workspace_id: tlaze-pepgitpodworkspa-8ja9gjsq9am
+    :workspace_url: https://tlaze-pepgitpodworkspa-8ja9gjsq9am.ws-us82.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: tomlazore@gmail.com
     :git_user_name: Tom Lazore
