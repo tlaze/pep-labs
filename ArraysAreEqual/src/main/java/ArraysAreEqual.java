@@ -1,4 +1,6 @@
 //see test cases.
+import java.util.Arrays;
+
 public class ArraysAreEqual {
     /**
      * Check if two arrays are equal to each other. Return true if all of the values in a are
@@ -15,6 +17,11 @@ public class ArraysAreEqual {
      * @return true if the values of a are equal to the values of b.
      */
     public boolean equal(int[] a, int[] b){
-        return false;
+        if(Arrays.equals(a,b)){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
