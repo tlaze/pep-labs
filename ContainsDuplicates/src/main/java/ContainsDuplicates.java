@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.*;
 
 public class ContainsDuplicates {
     /**
@@ -13,7 +14,7 @@ public class ContainsDuplicates {
 
         for(int i = 0; i < nums.length; i++){
             for(int j = i + 1; j < nums.length; j++;){
-                if(set.contains(nums[i])){
+                if(nums.contains(nums[j])){
                     duplicates = true;
                 };
             }
