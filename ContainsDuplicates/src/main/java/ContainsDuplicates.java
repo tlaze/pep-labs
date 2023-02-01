@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class ContainsDuplicates {
@@ -12,13 +11,13 @@ public class ContainsDuplicates {
 
         boolean duplicates = false;
 
-        for(int i = 0; i < nums.length; i++){
-            for(int j = i + 1; j < nums.length; j++;){
-                if(nums.contains(nums[j])){
-                    duplicates = true;
-                };
-            }
+        Set<Integer> set = new HashSet<Integer>();
 
+        for(Integer i: nums){
+            if(set.contains(i)){
+                duplicates = true;
+            }
+            set.add(i);
         }
         return duplicates;
     }
