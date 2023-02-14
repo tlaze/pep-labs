@@ -56,9 +56,22 @@ public class SampleClass {
     public boolean b;
 
     //    implement a custom .equals(SampleClass other){} method here.
-
+    public boolean equals(SampleClass a, SampleClass b){
+        boolean objectsEqual = false;
+        if(a.equals(b)){
+            objectsEqual = true;
+        }
+        else{
+            objectsEqual = false;
+        }
+        return objectsEqual;
+    }
 
     //    implement a custom .toString(){} method here.
+    public String toString(SampleClass a){
+        return a;
+        
+    }
 
     
 }
