@@ -57,7 +57,7 @@ public class SampleClass {
 
     //    implement a custom .equals(SampleClass other){} method here.
     public boolean equals(SampleClass a, SampleClass b){
-        boolean objectsEqual = false;
+        boolean objectsEqual;
         if(a.equals(b)){
             objectsEqual = true;
         }
