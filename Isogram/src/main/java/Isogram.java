@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Isogram {
     /**
@@ -13,6 +14,16 @@ public class Isogram {
      * @return true if str is an isogram, false otherwise.
      */
     public boolean isIsogram(String str){
-        return false;
+
+        String[] array = str.split("");
+        Set<String> test = new HashSet<String>(Arrays.asList(array));
+        System.out.println(test);
+
+        if(str.length() == test.size()){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
