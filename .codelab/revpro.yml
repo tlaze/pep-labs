@@ -12,29 +12,21 @@
   :gitpod_workspace_context:
     isFile: false
     path: ''
-    title: tlaze/pep-gitpod-workspace - main
+    title: revature-curriculum/pep-gitpod-workspace - main
     ref: main
     refType: branch
-    revision: 5d0ee2b0d677c8aee69a52cbfbf882eaab758954
+    revision: c834644ff16c92f8dd4e801d74ebbc86bdecaa2e
     repository:
-      cloneUrl: https://github.com/tlaze/pep-gitpod-workspace.git
+      cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
       host: github.com
       name: pep-gitpod-workspace
-      owner: tlaze
+      owner: revature-curriculum
       private: false
-      fork:
-        parent:
-          cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
-          host: github.com
-          name: pep-gitpod-workspace
-          owner: revature-curriculum
-          private: false
-    normalizedContextURL: https://github.com/tlaze/pep-gitpod-workspace
+    normalizedContextURL: https://github.com/revature-curriculum/pep-gitpod-workspace
     checkoutLocation: pep-gitpod-workspace
-    upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: tlaze-pepgitpodworkspa-8ja9gjsq9am
-    :workspace_url: https://tlaze-pepgitpodworkspa-8ja9gjsq9am.ws-us82.gitpod.io
+    :workspace_id: revaturecur-pepgitpodwo-3wniwfykaez
+    :workspace_url: https://revaturecur-pepgitpodwo-3wniwfykaez.ws-us87.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: tomlazore@gmail.com
     :git_user_name: Tom Lazore
